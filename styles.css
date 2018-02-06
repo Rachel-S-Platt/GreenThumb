@@ -1,0 +1,10 @@
+body{
+    font-family: 'Open Sans';
+    background-color:lightgreen;
+}
+
+.navitem{
+    display: inline-block;
+    margin: 20px;
+}
+
