@@ -24,7 +24,7 @@ header { width: 100%; }
 
 /** @group personal settings **/
 .info { float: left; margin-bottom: 12px; }
-.photo { float: right; padding:000 1em; }
+.photo { float: right; padding:000 1em; width: 30%;}
 .photo img { 
 -webkit-border-radius: 3px;
 -moz-border-radius: 3px;
