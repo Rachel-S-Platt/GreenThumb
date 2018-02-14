@@ -53,3 +53,7 @@ aside {
     width: 31.6455696%; /* 300/948 */
 
 }
+
+.img-responsive{
+    width: 80%;
+}

@@ -97,3 +97,7 @@ article {padding: 0 .25em 0 .25em;}
   margin:2.5%;
   padding:0;
 }
+
+.img-responsive{
+    width: 80%;
+}
