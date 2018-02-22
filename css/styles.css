@@ -3,6 +3,10 @@
 
 html {font-size:100%;}
 
+body{
+    background-color: aqua;
+}
+
 body#container {
 	font-family: 'Open Sans';
 
@@ -54,6 +58,10 @@ aside {
 
 }
 
+
+
 .img-responsive{
     width: 80%;
 }
+
+

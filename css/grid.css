@@ -49,6 +49,9 @@ nav ul {
     margin: 20px;
 }
 
+
+
+
 a {
   color:#a0001a;
   font-family:'Open Sans', sans-serif;
@@ -67,8 +70,17 @@ p{
   font-family:'Open Sans', sans-serif;
 }
 
+
+
 .img-responsive{
     width: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+.img-responsive{
+    width: 100vw;
+}
+
 }
 
 #page > aside {
