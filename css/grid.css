@@ -78,8 +78,6 @@ p{
     width: 100vw;
 }
 
-}
-
 #page > aside {
 	grid-area:aside;
   background-color:#dbdbdb;
