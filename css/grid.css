@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6{
   grid-area: nav;
   background-color: #afffca;
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -48,9 +49,6 @@ nav ul {
     display: inline-block;
     margin: 20px;
 }
-
-
-
 
 a {
   color:#a0001a;
@@ -68,9 +66,8 @@ a:visited{
 
 p{
   font-family:'Open Sans', sans-serif;
+  text-align: left;
 }
-
-
 
 .img-responsive{
     width: 80%;
@@ -85,8 +82,9 @@ p{
 
 #page > aside {
 	grid-area:aside;
-	background-color:#C7D4DF;
-	text-align: right;
+  background-color:#dbdbdb;
+  text-align: left;
+  padding:5%;
 }
 
 #page > footer {
@@ -97,30 +95,22 @@ p{
   padding:10px;
   width:100%;
 }
+
+footer > p{
+  text-align: center;
+}
+
 article {padding: 0 .25em 0 .25em;}
 
-#forms{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#form{
   padding:15px;
-  width:75%;
   margin:auto;
+  width:90%;
 }
-#form-image1{
-  max-width:150px;
-  margin:10px;
-}
-#form-image2{
-  max-height:230px;
-  margin:10px;
-  padding-top:15px;
-  padding-bottom:15px;
-}
-#owners, #sitters {
-  width:45%;
-  min-width:200px;
-  margin:2.5%;
-  padding:0;
+
+#pottedplant{
+  max-width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10%;
 }

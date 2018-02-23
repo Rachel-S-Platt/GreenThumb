@@ -25,37 +25,35 @@
 <main>
     <h2>Sign Up</h2>
     <p> Whether you are a prospective plant sitter looking to make a little extra money or a plant owner looking for a trustworthy candidate to take care of your precious plants we would love to work with you. Use the forms below to contact us and Green Thumb will help find the best fit for you and your needs.</p>
-<section id = "forms">
-<div id = "owners">
-    <h3> Plant Owners </h3>
-    <img id="form-image1" src = "images/plant.png" alt="Potted plant" />
-    <form>
-    	<fieldset>
-    		<label for="Ofirstname">First Name</label>
-    		<input type="text" id="Ofirstname" name="firstname" > <br>
-    		<label for="Olastname">Last Name</label>
-    		<input type="text" id="Olastname" name="lastname" > <br>
-    		<label for="Oemail">Email Address</label>
-    		<input type="text" id="Oemail" name="email" > <br>
-    	</fieldset>
+<form id = "form">
+        <fieldset>
+            <legend><h3>Contact Form</h3></legend>
+            <fieldset>
+                <legend><h4>Personal Info</h4></legend>
+                <label for="firstname">First Name:<br></label>
+                <input type="text" id="firstname" name="firstname" > <br>
+                <label for="lastname">Last Name:<br></label>
+                <input type="text" id="lastname" name="lastname" > <br>
+                <label for="email">Email Address:<br></label>
+                <input type="text" id="email" name="email" > <br>
+            </fieldset>
+            <fieldset>
+                <legend><h4>Other Info</h4></legend>
+                <label for="interest">I am a:<br></label>
+                <input type="radio" name="interest" value="owner" > Plant Owner<br>
+                <input type="radio" name="interest" value="sitter"> Plant Sitter<br>
+                <input type="radio" name="interest" value="other"> Other    <br>
+                <label for="newsletter">Newsletter:<br></label>
+                <input type="checkbox" name="newsletter"> Sign me up for updates <br>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </fieldset>
     </form>
-</div>
-<div id = "sitters">
-    <h3> Plant Sitters </h3>
-    <img id="form-image2" src = "images/watering-can.png" alt="Watering can" />
-    <form>
-    	<fieldset>
-    		<label for="Sfirstname">First Name</label>
-    		<input type="text" id="Sfirstname" name="firstname" > <br>
-    		<label for="Slastname">Last Name</label>
-    		<input type="text" id="Slastname" name="lastname" > <br>
-    		<label for="Semail">Email Address</label>
-    		<input type="text" id="Semail" name="email" > <br>
-    	</fieldset>
-    </form>
-</div>
-</section>
 </main>
+<aside>
+    <img id="pottedplant" src = "images/plant.png" alt="Potted plant" />
+    <p> <a href="pricing.html">Learn more about Green Thumb's pricing and services</a></p>
+</aside>
     <!-- This is a VERY bare bones version of a HTML5 template! -->
     <footer>
         <p>&copy; Green Thumb Inc. 2018 </p>
