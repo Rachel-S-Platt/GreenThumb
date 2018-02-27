@@ -31,23 +31,55 @@
             <legend><h3>Contact Form</h3></legend>
             <fieldset>
                 <legend><h4>Personal Info</h4></legend>
+            <div class = "row">
+                <div class = "col-25">
                 <label for="firstname">First Name:<br></label>
+                </div>
+                <div class = "col-75">
                 <input type="text" id="firstname" name="firstname" > <br>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-25">
                 <label for="lastname">Last Name:<br></label>
+                </div>
+                <div class = "col-75">
                 <input type="text" id="lastname" name="lastname" > <br>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-25">
                 <label for="email">Email Address:<br></label>
+                </div>
+                <div class = "col-75">
                 <input type="text" id="email" name="email" > <br>
+                </div>
+            </div>
             </fieldset>
             <fieldset>
                 <legend><h4>Other Info</h4></legend>
+            <div class = "row">
+                <div class = "col-25">
                 <label for="interest">I am a:<br></label>
+                </div>
+                <div class = "col-75" class = "radio">
                 <input type="radio" name="interest" value="owner" > Plant Owner<br>
                 <input type="radio" name="interest" value="sitter"> Plant Sitter<br>
                 <input type="radio" name="interest" value="other"> Other    <br>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-25">
                 <label for="newsletter">Newsletter:<br></label>
+                </div>
+                <div class = "col-75">
                 <input type="checkbox" name="newsletter"> Sign me up for updates <br>
+                </div>
+            </div>
             </fieldset>
-            <input type="submit" value="Submit">
+            <div class = "row">
+                <input type="submit" value="Submit">
+            </div>
         </fieldset>
     </form>
 </main>
