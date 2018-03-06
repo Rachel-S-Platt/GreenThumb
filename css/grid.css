@@ -28,14 +28,26 @@ html{
 }
 
 h1, h2, h3, h4, h5, h6{
-  color:#022300;
+  color:rgb(18, 71, 64);
   font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color:rgb(18, 71, 64);
+  font-family:'Open Sans', sans-serif;
+  size:1.25em;
+}
+
+a:visited{
+  color:#fff;
 }
 
 #page > nav {
   grid-area: nav;
-  background-color: #afffca;
+  background-color: rgb(18, 71, 64);
+  background-color: rgba(18, 71, 64, .6);
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -49,16 +61,14 @@ nav ul {
     margin: 20px;
 }
 
-
-
-
-a {
-  color:#a0001a;
-  font-family:'Open Sans', sans-serif;
+nav  a{
+  color:#fff;
 }
-
-a:visited{
-  color:#022300;
+nav a:hover{
+  color:#dbdbdb;
+}
+nav  a:visited{
+  color:#000;
 }
 
 #page > main {
@@ -68,9 +78,8 @@ a:visited{
 
 p{
   font-family:'Open Sans', sans-serif;
+  text-align: left;
 }
-
-
 
 .img-responsive{
     width: 80%;
@@ -85,42 +94,107 @@ p{
 
 #page > aside {
 	grid-area:aside;
-	background-color:#C7D4DF;
-	text-align: right;
+  background-color:#dbdbdb;
+  text-align: left;
+  padding:5%;
 }
 
 #page > footer {
   grid-area: foot;
-  background-color: #022300;
-  color:#fff;
+  color: #fff;
+  background: rgb(18, 71, 64);
+  background:rgba(18, 71, 64, .8);
   text-align: center;
   padding:10px;
   width:100%;
 }
+
+footer > p{
+  text-align: center;
+}
+footer  a{
+  color:#fff;
+}
+footer a:hover{
+  color:#dbdbdb;
+}
+footer  a:visited{
+  color:#000;
+}
+
 article {padding: 0 .25em 0 .25em;}
 
-#forms{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#form{
   padding:15px;
-  width:75%;
   margin:auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width:90%;
+  background-color: #dbdbdb;
+  border-radius: 5px;
 }
-#form-image1{
-  max-width:150px;
-  margin:10px;
+
+legend {
+	padding:0px 5px;
 }
-#form-image2{
-  max-height:230px;
-  margin:10px;
-  padding-top:15px;
-  padding-bottom:15px;
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
 }
-#owners, #sitters {
-  width:45%;
-  min-width:200px;
-  margin:2.5%;
-  padding:0;
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.row{
+	padding:10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(18, 71, 64);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #466d68;
+}
+
+.col-25 {
+    float: left;
+    width: 23%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 73%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+#pottedplant{
+  max-width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10%;
 }
